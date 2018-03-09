@@ -1,0 +1,172 @@
+.container1
+{
+	height: 900px;
+	background-color: rgb(73, 161, 172);
+	text-align: center;
+	padding:10px;
+}
+.container1 a:link
+{
+	text-decoration:none;
+	color: black;
+	 text-shadow: 2px 2px;
+}
+em{
+	color: #FBC213;
+}
+.container{
+	color: #FBC213;
+}
+.container h1
+{
+	padding: 40px;
+}
+.container h2
+{
+	padding: 40px;
+}
+.container h3
+{
+	padding: 40px;
+}
+.container h4
+{
+	padding: 40px;
+}
+.container h5
+{
+	padding: 40px;
+}
+.container1 p
+{
+	font-size: 4em;
+}
+.container2
+{
+	background-color:  #FBC213;
+	height: 300px;
+	
+}
+.title-text
+{
+	color: black;
+	text-align: center;
+	padding-top: 100px;
+}
+.title-text2
+{
+	color: black;
+	text-align: center;
+	padding-top: 100px;
+}
+.sub-heading
+{
+	color: white;
+	text-align: center;
+}
+.container5
+{
+	
+	height: 700px;
+	
+}
+.title-text1
+{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.sub-heading1
+{
+	color: black;
+	text-align: center;
+}
+.container3
+{
+	background-color: #303030;
+	height: 900px;
+}
+.center p{
+	color: white;
+}
+.center{
+	text-align: center;
+}
+.fa-chevron-up
+{
+	color: white;
+    font-size: 22px;
+}
+.container4
+{
+	margin-top: 30px;
+	background-color: #303030;
+	height: 500px;
+	
+}
+.quotes
+{
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 500px;
+}
+.container6
+{
+	
+	height: 1000px;
+	
+}
+.container7
+{
+	height: 1000px;
+	
+	
+	
+}
+.container8
+{
+	height: 1000px;
+	background-color: rgb(73, 161, 172);   
+	
+	
+}
+.form_container
+{
+	height: 500px;
+	width: 500px;
+	margin-right: 100px;
+}
+.back-to-top
+{
+   text-align: center;
+   background-color: rgba(0,0,0,0.4);
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 22px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  
+}
+
+.fa-chevron-up
+{
+	color: white;
+  
+}
+.jumbotron-fluid
+{
+	padding-left: 20px;
+}
+.btn
+{
+	width:150px;
+	background-color: black;
+	color: white;
+}
+div.card{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
