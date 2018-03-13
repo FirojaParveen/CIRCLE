@@ -173,12 +173,14 @@ li{
     padding-left: 52px;
     padding-right: 52px;
 }
-.btn-secondary {
+.btn {
     background-color: #FBC213;
     border: 1px solid white;
     color: white;
 }
-
+.btn:hover{
+	color:black;
+}
 .widget {
     margin-bottom: 20px;
 }
@@ -256,7 +258,7 @@ form {
     position: absolute;
     right: 3%;
     top: 50%;
-    margin-top: -11px;
+    margin-top: -21px;
     padding: 6px;
     font-size: 14px;
     line-height: 1;
