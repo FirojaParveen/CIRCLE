@@ -1,6 +1,6 @@
 .container1
 {
-	height: 900px;
+	min-height: 900px;
 	background-color: rgb(73, 161, 172);
 	text-align: center;
 	padding:10px;
@@ -44,7 +44,7 @@ em{
 .container2
 {
 	background-color:  #FBC213;
-	height: 300px;
+	min-height: 300px;
 	
 }
 .title-text
@@ -67,7 +67,7 @@ em{
 .container5
 {
 	
-	height: 700px;
+	min-height: 700px;
 	
 }
 .title-text1
@@ -84,7 +84,7 @@ em{
 .container3
 {
 	background-color: #303030;
-	height: 900px;
+	min-height: 900px;
 }
 .center p{
 	color: white;
@@ -101,7 +101,7 @@ em{
 {
 	margin-top: 30px;
 	background-color: #303030;
-	height: 500px;
+	min-height: 500px;
 	
 }
 .quotes
@@ -114,19 +114,23 @@ em{
 .container6
 {
 	
-	height: 1000px;
+	min-height: 1000px;
 	
+}
+.info-card .card{
+	height:280px;
+	margin-bottom:15px;
 }
 .container7
 {
-	height: 1000px;
+	min-height: 160px;
 	
 	
 	
 }
 .container8
 {
-	height: 1000px;
+	min-height: 1000px;
 	background-color: rgb(73, 161, 172);   
 	
 	
@@ -161,6 +165,14 @@ em{
 {
 	padding-left: 20px;
 }
+.jumbotron{
+	
+margin-bottom: 0rem;
+}
+.jumbotron h1
+	{
+		font-size: 4em
+	}
 .btn
 {
 	width:150px;
@@ -171,8 +183,22 @@ div.card{
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
+@media only screen and (max-width:768px) {
+	.quotes
+	{
+	font-size: 1.6em;
+	}
+	.jumbotron h1
+	{
+		font-size: 3em
+	}
+}
+@media only screen and (min-width: 770px) and (max-width:1024px) {
+	.quotes
+	{
+	font-size: 2em;
+	}
+}
 
 
 
